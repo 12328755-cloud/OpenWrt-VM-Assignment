@@ -1,6 +1,6 @@
-COIT20246 Cyber Security and Networking
+**##COIT20246 Cyber Security and Networking##**
 
-Project Specification 1
+**Project Specification 1**
 
 Small Business Network Security, OpenWrt Firewall Configuration and
 Cyber Security Risk Assessment
@@ -12,11 +12,11 @@ Student 2: Patel Ronak Ghanshyambhai Student ID: 12328755
 Business Scenario: Small IT and Business Consultancy, Brisbane,
 Queensland, Australia
 
-4.1 Network Setup
+**Network Setup**
 
-4.1.1 List the Assumptions
+ List the Assumptions
 
-Location: The business is assumed to operate in Brisbane, Queensland,
+Location: The busin****ess is assumed to operate in Brisbane, Queensland,
 Australia.
 
 Professional services: It provides IT support, cybersecurity consulting,
