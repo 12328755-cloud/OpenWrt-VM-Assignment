@@ -31,53 +31,79 @@ Identification information of staff members/students needed for testing.
 
 4.1.2 Set Up the Network
 
+![Network Setup](images/Picture1.png)
+
 Figure 1: OpenWrt 22.03.3 Virtual Machine Boot and System Information
+![Network Setup](images/Picture2.png)
 
 Figure 2: OpenWrt Network Interface Configuration and IP Address
 Allocation
+![Network Setup](images/Picture3.png)
 
 Figure 3: OpenWrt System and Virtual Machine Information
 
+![Network Setup](images/Picture4.png)
+
 Figure 4: OpenWrt Network Configuration and Interface Mapping
+![Network Setup](images/Picture5.png)
 
 Figure 5: OpenWrt Network Interface and DHCP Configuration
 
-Figure 6: OpenWrt Routing Table and Network Interface Status
+![Network Setup](images/Picture6.jpg)
 
-Figure 7: Proposed OpenWrt VirtualBox Laboratory Network Topology and IP
+
+Figure 6: Proposed OpenWrt VirtualBox Laboratory Network Topology and IP
 Address Allocation
+![Network Setup](images/Picture7.png)
 
-Figure 8: Successful ICMP Connectivity Test from Windows Host to OpenWrt
+Figure 7: Successful ICMP Connectivity Test from Windows Host to OpenWrt
 
-Figure 9: Successful Internet Connectivity Test from OpenWrt to External
+![Network Setup](images/Picture8.png)
+
+Figure 8: Successful Internet Connectivity Test from OpenWrt to External
 Networks
 
-Figure 10: OpenWrt Web Interface HTML in /www/index.html
+![Network Setup](images/Picture9.png)
 
-4.1.3 Configure Firewall Rules
+Figure 9: OpenWrt Web Interface HTML in /www/index.html
 
-Figure 11: Failed SSH Authentication Attempt on OpenWrt Through TCP Port
+ Configure Firewall Rules
+ 
+![Network Setup](images/Picture10.png)
+
+Figure 10: Failed SSH Authentication Attempt on OpenWrt Through TCP Port
 22
 
-Figure 12: OpenWrt Firewall Configuration Allowing SSH Traffic on TCP
+![Network Setup](images/Picture11.png)
+
+Figure 11: OpenWrt Firewall Configuration Allowing SSH Traffic on TCP
 Port 2222
 
-Figure 13: SSH Port Modification to TCP 2222 and Connection Refusal
+![Network Setup](images/Picture12.png)
+
+Figure 12: SSH Port Modification to TCP 2222 and Connection Refusal
 During Port Verification
 
-Figure 14: Successful Access to the OpenWrt Web Server Through HTTP
+![Network Setup](images/Picture13.png)
 
-Figure 15: OpenWrt Root Password Hardening and Firewall Zone
+Figure 13: Successful Access to the OpenWrt Web Server Through HTTP
+
+![Network Setup](images/Picture14.jpg)
+
+Figure 14: OpenWrt Root Password Hardening and Firewall Zone
 Configuration
 
-Figure 16: OpenWrt HTTP Service Configuration and TCP Port 80 Firewall
+![Network Setup](images/Picture15.png)
+
+Figure 15: OpenWrt HTTP Service Configuration and TCP Port 80 Firewall
 Rule
 
-Figure 17: Successful ICMP Connectivity Test from Windows Host to
+![Network Setup](images/Picture16.png)
+
+Figure 16: Successful ICMP Connectivity Test from Windows Host to
 OpenWrt
 
-Figure 18: OpenWrt Firewall and Network Security Configuration
-Verification
+
 
 Firewall Filtering provides some extra security on the network, as it
 restricts access to key services. The block of port 80 prevents any
@@ -93,6 +119,8 @@ these rules mandate controlled connectivity, eases the attack surface,
 protects administrative services and enhances network security.
 
 4.1.4 Network Diagram and Address Allocation Production
+
+![Network Setup](images/Picture17.jpg)
 
 Figure 19: Proposed Small Business Production Network Topology and IP
 Address Allocation
