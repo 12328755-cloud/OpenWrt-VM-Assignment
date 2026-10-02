@@ -5,4 +5,4 @@ List the Assumptions
 ●	Staff: 8 staff – 1 Business Manager, 2 IT Support Specialists, 3 Business Consultants and 2 Administrative Staff.
 ●	Business/public information: The Website contains business and service information, contact information, project information, and Identification information of staff members/students needed for testing.
  Set Up the NetworK
-![Network Setup](Picture4.png)
+![Network Setup](Picture1.png)
