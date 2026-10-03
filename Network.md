@@ -92,22 +92,24 @@ During Port Verification
 
 Figure 14: Successful Access to the OpenWrt Web Server Through HTTP
 
-![Network Setup](images/Picture15.jpg)
+![Network Setup](images/Picture35.jpg)
 
 Figure 15: OpenWrt Root Password Hardening and Firewall Zone
 Configuration
 
-![Network Setup](images/Picture17.png)
+![Network Setup](images/Picture36.png)
 
 Figure 16: OpenWrt HTTP Service Configuration and TCP Port 80 Firewall
 Rule
 
-![Network Setup](images/Picture16.png)
+![Network Setup](images/Picture37.png)
 
 Figure 17: Successful ICMP Connectivity Test from Windows Host to
 OpenWrt
 
+![Network Setup](images/Picture17.png)
 
+Figure 18: OpenWrt Firewall and Network Security Configuration Verification
 
 Firewall Filtering provides some extra security on the network, as it
 restricts access to key services. The block of port 80 prevents any
