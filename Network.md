@@ -107,7 +107,7 @@ Rule
 Figure 17: Successful ICMP Connectivity Test from Windows Host to
 OpenWrt
 
-![Network Setup](images/Picture17.png)
+![Network Setup](images/Picture16.png)
 
 Figure 18: OpenWrt Firewall and Network Security Configuration Verification
 
