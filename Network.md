@@ -1,4 +1,4 @@
-**#COIT20246 Cyber Security and Networking#**
+**##COIT20246 Cyber Security and Networking##**
 
 **Project Specification 1**
 
@@ -12,7 +12,7 @@ Student 2: Patel Ronak Ghanshyambhai Student ID: 12328755
 Business Scenario: Small IT and Business Consultancy, Brisbane,
 Queensland, Australia
 
-**##4.1 Network Setup##**
+**4.1 Network Setup**
 
 **4.1.1 List the Assumptions**
 
@@ -176,11 +176,11 @@ access, business website functionality and resource management.
                                    (/24)                          workstation
   ------------------------------------------------------------------------------
 
-**##4.2 Security Hardening and Traffic Analysis##**
+**4.2 Security Hardening and Traffic Analysis**
 
 **4.2.1 Harden the OpenWRT System**
 
-![Security](images/Picture17.jpg)
+![Figure 1: Successful SSH Login to the OpenWrt Virtual Machine](./images/Picture18.png)
 
 Figure 1: Successful SSH Login to the OpenWrt Virtual Machine
 
