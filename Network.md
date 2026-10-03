@@ -291,35 +291,11 @@ inherent risk score of 20. There are three suggested security controls:
 
 **Project Reflection -- Task Allocation and Contribution Table**
 
-  ------------------------------------------------------------------------------
-  Student           Student ID        Actual Tasks Completed   GitHub
-                                                               Contribution
-  ----------------- ----------------- ------------------------ -----------------
-  Pavan Reddy       12327397          OpenWrt VM               Commits related
-  Chinthalapally                      configuration; network   to OpenWrt
-                                      interface and            configuration,
-                                      connectivity testing;    security testing,
-                                      firewall configuration   traffic analysis
-                                      and testing; SSH         and documentation
-                                      hardening; password and  
-                                      key authentication;      
-                                      tcpdump/Wireshark        
-                                      traffic analysis; risk   
-                                      assessment support;      
-                                      report documentation     
 
-  Patel Ronak       12328755          Network planning and     Commits related
-  Ghanshyambhai                       diagram development;     to network
-                                      website                  design, website,
-                                      configuration/testing;   risk assessment,
-                                      firewall and             documentation and
-                                      connectivity support;    project
-                                      risk assessment and      organisation
-                                      security controls;       
-                                      report preparation;      
-                                      GitHub organisation and  
-                                      supporting documentation 
-  ------------------------------------------------------------------------------
+| **Student** | **Student ID** | **Actual Tasks Completed** | **GitHub Contribution** |
+|---|---|---|---|
+| **Pavan Reddy Chinthalapally** | `12327397` | OpenWrt VM configuration; network interface and connectivity testing; firewall configuration and testing; SSH hardening; password and key authentication; `tcpdump`/Wireshark traffic analysis; risk assessment support; report documentation. | Commits related to OpenWrt configuration, security testing, traffic analysis and documentation. |
+| **Patel Ronak Ghanshyambhai** | `12328755` | Network planning and diagram development; website configuration/testing; firewall and connectivity support; risk assessment and security controls; report preparation; GitHub organisation and supporting documentation. | Commits related to network design, website, risk assessment, documentation and project organisation. |
 
 I configured the OpenWrt virtual machine, tested network connectivity,
 wrote firewall rules, system hardening, captured network traffic with
