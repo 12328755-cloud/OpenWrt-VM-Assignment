@@ -82,7 +82,7 @@ Figure 11: Failed SSH Authentication Attempt on OpenWrt Through TCP Port
 
 Figure 12: OpenWrt Firewall Configuration Allowing SSH Traffic on TCP
 Port 2222
-
+![Network Setup](images/Picture33.png)
 ![Network Setup](images/Picture13.png)
 
 Figure 13: SSH Port Modification to TCP 2222 and Connection Refusal
