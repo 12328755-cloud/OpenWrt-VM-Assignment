@@ -184,9 +184,15 @@ access, business website functionality and resource management.
 
 Figure 1: Successful SSH Login to the OpenWrt Virtual Machine
 
+![Figure 2: Successful Root Password Change on OpenWrt](./images/Picture19.png)
+
 Figure 2: Successful Root Password Change on OpenWrt
 
+![Figure 3: OpenWrt Password Hashes Stored in /etc/shadow](./images/Picture20.png)
+
 Figure 3: OpenWrt Password Hashes Stored in /etc/shadow
+
+![Figure 4: Ed25519 SSH Key Pair Generation on the Windows Host](./images/Picture21.png)
 
 Figure 4: Ed25519 SSH Key Pair Generation on the Windows Host
 
@@ -195,6 +201,8 @@ key pair instead of relying solely on passwords. The private key remains
 securely on the authorised device, while the public key is stored on
 OpenWrt. This reduces exposure to password guessing, brute-force
 attacks, credential theft, and password reuse.
+
+![Figure 5: OpenWrt Enabled Services and Startup Configuration](./images/Picture22.png)
 
 Figure 5: OpenWrt Enabled Services and Startup Configuration
 
@@ -206,11 +214,17 @@ and makes the OpenWrt system easier to monitor and maintain securely.
 
 **4.2.2 Capture and Analyse Network Traffic**
 
+![Figure 6: HTTP Traffic Capture Using tcpdump on the OpenWrt br-mng Interface](./images/Picture23.png)
+
 Figure 6: HTTP Traffic Capture Using tcpdump on the OpenWrt br-mng
 Interface
 
+![Figure 7: HTTP Traffic Capture Using tcpdump with Host and TCP Port Filtering](./images/Picture24.png)
+
 Figure 7: HTTP Traffic Capture Using tcpdump with Host and TCP Port
 Filtering
+
+![Figure 8: Captured Network Traffic Displayed in Wireshark (HTTP)](./images/Picture25.png)
 
 Figure 8: Captured Network Traffic Displayed in Wireshark (HTTP)
 
@@ -222,7 +236,12 @@ be seen from the webpage, might be given away due to lack of encryption
 in the HTTP. Any traffic monitoring, and information disclosure, would
 be possible.
 
+
+![Figure 9: SSH Traffic Capture Attempt Using tcpdump on OpenWrt](./images/Picture26.png)
+
 Figure 9: SSH Traffic Capture Attempt Using tcpdump on OpenWrt
+
+![Figure 10: SSH Network Traffic Packets Displayed in Wireshark During Traffic Analysis](./images/Picture27.png)
 
 Figure 10: SSH Network Traffic Packets Displayed in Wireshark During
 Traffic Analysis
