@@ -16,7 +16,7 @@ Queensland, Australia
 
  List the Assumptions
 
-Location: The busin****ess is assumed to operate in Brisbane, Queensland,
+Location: The business is assumed to operate in Brisbane, Queensland,
 Australia.
 
 Professional services: It provides IT support, cybersecurity consulting,
