@@ -138,43 +138,18 @@ access, business website functionality and resource management.
 **4.1.5 IP Addressing Requirements**
 
 
-
-  ------------------------------------------------------------------------------
-  Device / Role     IP Address     Subnet Mask     Default        Purpose
-                                                   Gateway        
-  ----------------- -------------- --------------- -------------- --------------
-  OpenWrt           97.0.0.1       255.255.255.0   ---            Network
-  Router/Firewall                  (/24)                          gateway,
-                                                                  routing and
-                                                                  firewall
-
-  Business Web      97.0.0.10      255.255.255.0   97.0.0.1       Business
-  Server                           (/24)                          website
-
-  Business Manager  97.0.0.20      255.255.255.0   97.0.0.1       Staff
-                                   (/24)                          workstation
-
-  IT Support 1      97.0.0.21      255.255.255.0   97.0.0.1       Staff
-                                   (/24)                          workstation
-
-  IT Support 2      97.0.0.22      255.255.255.0   97.0.0.1       Staff
-                                   (/24)                          workstation
-
-  Business          97.0.0.23      255.255.255.0   97.0.0.1       Staff
-  Consultant 1                     (/24)                          workstation
-
-  Business          97.0.0.24      255.255.255.0   97.0.0.1       Staff
-  Consultant 2                     (/24)                          workstation
-
-  Business          97.0.0.25      255.255.255.0   97.0.0.1       Staff
-  Consultant 3                     (/24)                          workstation
-
-  Administration 1  97.0.0.26      255.255.255.0   97.0.0.1       Staff
-                                   (/24)                          workstation
-
-  Administration 2  97.0.0.27      255.255.255.0   97.0.0.1       Staff
-                                   (/24)                          workstation
-  ------------------------------------------------------------------------------
+| **Device / Role** | **IP Address** | **Subnet Mask** | **Default Gateway** | **Purpose** |
+|---|---|---|---|---|
+| **OpenWrt Router/Firewall** | `97.0.0.1` | `255.255.255.0` (`/24`) | `---` | Network gateway, routing and firewall |
+| **Business Web Server** | `97.0.0.10` | `255.255.255.0` (`/24`) | `97.0.0.1` | Business website |
+| **Business Manager** | `97.0.0.20` | `255.255.255.0` (`/24`) | `97.0.0.1` | Staff workstation |
+| **IT Support 1** | `97.0.0.21` | `255.255.255.0` (`/24`) | `97.0.0.1` | Staff workstation |
+| **IT Support 2** | `97.0.0.22` | `255.255.255.0` (`/24`) | `97.0.0.1` | Staff workstation |
+| **Business Consultant 1** | `97.0.0.23` | `255.255.255.0` (`/24`) | `97.0.0.1` | Staff workstation |
+| **Business Consultant 2** | `97.0.0.24` | `255.255.255.0` (`/24`) | `97.0.0.1` | Staff workstation |
+| **Business Consultant 3** | `97.0.0.25` | `255.255.255.0` (`/24`) | `97.0.0.1` | Staff workstation |
+| **Administration 1** | `97.0.0.26` | `255.255.255.0` (`/24`) | `97.0.0.1` | Staff workstation |
+| **Administration 2** | `97.0.0.27` | `255.255.255.0` (`/24`) | `97.0.0.1` | Staff workstation |
 
 **4.2 Security Hardening and Traffic Analysis**
 
