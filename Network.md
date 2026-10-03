@@ -45,7 +45,7 @@ Figure 3: OpenWrt System and Virtual Machine Information
 ![Network Setup](images/Picture4.png)
 
 Figure 4: OpenWrt Network Configuration and Interface Mapping
-![Network Setup](images/Picture5.png)
+![Network Setup](images/Picture32.png)
 
 Figure 5: OpenWrt Network Interface and DHCP Configuration
 
