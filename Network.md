@@ -261,7 +261,7 @@ that already existed were firewall rules, SSH key authentication,
 hardening of the root password, encryption and turning off unnecessary
 services.
 
-4.3.2 Recommend Security Controls
+**4.3.2 Recommend Security Controls**
 
 Employee credentials (A05) is the highest-risk data asset, with an
 inherent risk score of 20. There are three suggested security controls:
