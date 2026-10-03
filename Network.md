@@ -49,6 +49,10 @@ Figure 4: OpenWrt Network Configuration and Interface Mapping
 
 Figure 5: OpenWrt Network Interface and DHCP Configuration
 
+![Network Setup](images/Picture30.png)
+
+Figure 6: OpenWrt Routing Table and Network Interface Status
+
 ![Network Setup](images/Picture6.jpg)
 
 
