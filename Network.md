@@ -56,55 +56,55 @@ Figure 6: OpenWrt Routing Table and Network Interface Status
 ![Network Setup](images/Picture6.jpg)
 
 
-Figure 6: Proposed OpenWrt VirtualBox Laboratory Network Topology and IP
+Figure 7: Proposed OpenWrt VirtualBox Laboratory Network Topology and IP
 Address Allocation
 ![Network Setup](images/Picture7.png)
 
-Figure 7: Successful ICMP Connectivity Test from Windows Host to OpenWrt
+Figure 8: Successful ICMP Connectivity Test from Windows Host to OpenWrt
 
 ![Network Setup](images/Picture8.png)
 
-Figure 8: Successful Internet Connectivity Test from OpenWrt to External
+Figure 9: Successful Internet Connectivity Test from OpenWrt to External
 Networks
 
 ![Network Setup](images/Picture9.png)
 
-Figure 9: OpenWrt Web Interface HTML in /www/index.html
+Figure 10: OpenWrt Web Interface HTML in /www/index.html
 
 **4.1.3 Configure Firewall Rules**
  
 ![Network Setup](images/Picture10.png)
 
-Figure 10: Failed SSH Authentication Attempt on OpenWrt Through TCP Port
+Figure 11: Failed SSH Authentication Attempt on OpenWrt Through TCP Port
 22
 
 ![Network Setup](images/Picture11.png)
 
-Figure 11: OpenWrt Firewall Configuration Allowing SSH Traffic on TCP
+Figure 12: OpenWrt Firewall Configuration Allowing SSH Traffic on TCP
 Port 2222
 
 ![Network Setup](images/Picture12.png)
 
-Figure 12: SSH Port Modification to TCP 2222 and Connection Refusal
+Figure 13: SSH Port Modification to TCP 2222 and Connection Refusal
 During Port Verification
 
 ![Network Setup](images/Picture13.png)
 
-Figure 13: Successful Access to the OpenWrt Web Server Through HTTP
+Figure 14: Successful Access to the OpenWrt Web Server Through HTTP
 
 ![Network Setup](images/Picture14.jpg)
 
-Figure 14: OpenWrt Root Password Hardening and Firewall Zone
+Figure 15: OpenWrt Root Password Hardening and Firewall Zone
 Configuration
 
 ![Network Setup](images/Picture15.png)
 
-Figure 15: OpenWrt HTTP Service Configuration and TCP Port 80 Firewall
+Figure 16: OpenWrt HTTP Service Configuration and TCP Port 80 Firewall
 Rule
 
 ![Network Setup](images/Picture16.png)
 
-Figure 16: Successful ICMP Connectivity Test from Windows Host to
+Figure 17: Successful ICMP Connectivity Test from Windows Host to
 OpenWrt
 
 
