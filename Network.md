@@ -88,11 +88,11 @@ Port 2222
 Figure 13: SSH Port Modification to TCP 2222 and Connection Refusal
 During Port Verification
 
-![Network Setup](images/Picture15.png)
+![Network Setup](images/Picture34.png)
 
 Figure 14: Successful Access to the OpenWrt Web Server Through HTTP
 
-![Network Setup](images/Picture16.jpg)
+![Network Setup](images/Picture15.jpg)
 
 Figure 15: OpenWrt Root Password Hardening and Firewall Zone
 Configuration
