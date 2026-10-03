@@ -180,7 +180,7 @@ access, business website functionality and resource management.
 
 **4.2.1 Harden the OpenWRT System**
 
-![Network Setup](images/Picture17.jpg)
+![Security](images/Picture17.jpg)
 
 Figure 1: Successful SSH Login to the OpenWrt Virtual Machine
 
