@@ -253,36 +253,14 @@ confidentiality of the data being sent, minimising the chances of
 attackers being able to obtain commands, credentials or any other
 sensitive information through network interception.
 
-  -----------------------------------------------------------------------
-  **Hardening Step**                      **Security Risk Addressed**
-  ----------------------------------- -----------------------------------
-  1\. Change Default Root Password    Reduces the risk of unauthorised
-                                      administrative access through
-                                      default or easily guessed
-                                      credentials. A strong, unique
-                                      password makes credential-based
-                                      attacks more difficult.
+  ### Hardening Summary
 
-  2\. Examine Password Storage in     Addresses the risk of password
-  /etc/shadow                         disclosure. Storing passwords as
-                                      hashes rather than plaintext
-                                      prevents the original passwords
-                                      from being directly exposed if the
-                                      password database is accessed.
-
-  3\. Set Up SSH Key-Based            Reduces the risk of password
-  Authentication                      guessing and brute-force attacks.
-                                      SSH keys provide stronger
-                                      authentication than password-only
-                                      access, particularly when a
-                                      passphrase protects the private
-                                      key.
-
-  4\. Disable Unnecessary Services    Reduces the attack surface of
-                                      OpenWrt. Unnecessary services can
-                                      provide additional entry points
-                                      that an attacker could exploit.
-  -----------------------------------------------------------------------
+| **Hardening Step** | **Security Risk Addressed** |
+|---|---|
+| **1. Change Default Root Password** | Reduces the risk of unauthorised administrative access through default or easily guessed credentials. A strong, unique password makes credential-based attacks more difficult. |
+| **2. Examine Password Storage in `/etc/shadow`** | Addresses the risk of password disclosure. Storing passwords as hashes rather than plaintext prevents the original passwords from being directly exposed if the password database is accessed. |
+| **3. Set Up SSH Key-Based Authentication** | Reduces the risk of password guessing and brute-force attacks. SSH keys provide stronger authentication than password-only access, particularly when a passphrase protects the private key. |
+| **4. Disable Unnecessary Services** | Reduces the attack surface of OpenWrt. Unnecessary services can provide additional entry points that an attacker could exploit. |
 
 
 **References**
