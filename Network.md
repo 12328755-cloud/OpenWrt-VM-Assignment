@@ -92,7 +92,7 @@ During Port Verification
 
 Figure 14: Successful Access to the OpenWrt Web Server Through HTTP
 
-![Network Setup](images/Picture35.jpg)
+![Network Setup](images/Picture35.png)
 
 Figure 15: OpenWrt Root Password Hardening and Firewall Zone
 Configuration
