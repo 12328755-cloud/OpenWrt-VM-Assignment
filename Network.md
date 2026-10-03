@@ -161,21 +161,21 @@ access, business website functionality and resource management.
 
 **4.2.1 Harden the OpenWRT System**
 
-![Figure 1: Successful SSH Login to the OpenWrt Virtual Machine](./images/Picture18.png)
+![Figure 20: Successful SSH Login to the OpenWrt Virtual Machine](./images/Picture18.png)
 
-Figure 1: Successful SSH Login to the OpenWrt Virtual Machine
+Figure 20: Successful SSH Login to the OpenWrt Virtual Machine
 
-![Figure 2: Successful Root Password Change on OpenWrt](./images/Picture19.png)
+![Figure 21: Successful Root Password Change on OpenWrt](./images/Picture19.png)
 
-Figure 2: Successful Root Password Change on OpenWrt
+Figure 21: Successful Root Password Change on OpenWrt
 
-![Figure 3: OpenWrt Password Hashes Stored in /etc/shadow](./images/Picture20.png)
+![Figure 22: OpenWrt Password Hashes Stored in /etc/shadow](./images/Picture20.png)
 
-Figure 3: OpenWrt Password Hashes Stored in /etc/shadow
+Figure 22: OpenWrt Password Hashes Stored in /etc/shadow
 
-![Figure 4: Ed25519 SSH Key Pair Generation on the Windows Host](./images/Picture21.png)
+![Figure 23: Ed25519 SSH Key Pair Generation on the Windows Host](./images/Picture21.png)
 
-Figure 4: Ed25519 SSH Key Pair Generation on the Windows Host
+Figure 23: Ed25519 SSH Key Pair Generation on the Windows Host
 
 Key-based authentication is more secure because it uses a cryptographic
 key pair instead of relying solely on passwords. The private key remains
@@ -183,9 +183,9 @@ securely on the authorised device, while the public key is stored on
 OpenWrt. This reduces exposure to password guessing, brute-force
 attacks, credential theft, and password reuse.
 
-![Figure 5: OpenWrt Enabled Services and Startup Configuration](./images/Picture22.png)
+![Figure 24: OpenWrt Enabled Services and Startup Configuration](./images/Picture22.png)
 
-Figure 5: OpenWrt Enabled Services and Startup Configuration
+Figure 24: OpenWrt Enabled Services and Startup Configuration
 
 Disabling unnecessary services reduces the system's attack surface by
 removing functions that are not required. Fewer active services mean
@@ -195,19 +195,19 @@ and makes the OpenWrt system easier to monitor and maintain securely.
 
 **4.2.2 Capture and Analyse Network Traffic**
 
-![Figure 6: HTTP Traffic Capture Using tcpdump on the OpenWrt br-mng Interface](./images/Picture23.png)
+![Figure 25: HTTP Traffic Capture Using tcpdump on the OpenWrt br-mng Interface](./images/Picture23.png)
 
-Figure 6: HTTP Traffic Capture Using tcpdump on the OpenWrt br-mng
+Figure 25: HTTP Traffic Capture Using tcpdump on the OpenWrt br-mng
 Interface
 
-![Figure 7: HTTP Traffic Capture Using tcpdump with Host and TCP Port Filtering](./images/Picture24.png)
+![Figure 26: HTTP Traffic Capture Using tcpdump with Host and TCP Port Filtering](./images/Picture24.png)
 
-Figure 7: HTTP Traffic Capture Using tcpdump with Host and TCP Port
+Figure 26: HTTP Traffic Capture Using tcpdump with Host and TCP Port
 Filtering
 
-![Figure 8: Captured Network Traffic Displayed in Wireshark (HTTP)](./images/Picture25.png)
+![Figure 27: Captured Network Traffic Displayed in Wireshark (HTTP)](./images/Picture25.png)
 
-Figure 8: Captured Network Traffic Displayed in Wireshark (HTTP)
+Figure 27: Captured Network Traffic Displayed in Wireshark (HTTP)
 
 The attacker who taps information from an HTTP stream is able to obtain
 the server and client IP addresses, the request and response URL, HTTP
@@ -218,13 +218,13 @@ in the HTTP. Any traffic monitoring, and information disclosure, would
 be possible.
 
 
-![Figure 9: SSH Traffic Capture Attempt Using tcpdump on OpenWrt](./images/Picture26.png)
+![Figure 28: SSH Traffic Capture Attempt Using tcpdump on OpenWrt](./images/Picture26.png)
 
-Figure 9: SSH Traffic Capture Attempt Using tcpdump on OpenWrt
+Figure 28: SSH Traffic Capture Attempt Using tcpdump on OpenWrt
 
-![Figure 10: SSH Network Traffic Packets Displayed in Wireshark During Traffic Analysis](./images/Picture27.png)
+![Figure 29: SSH Network Traffic Packets Displayed in Wireshark During Traffic Analysis](./images/Picture27.png)
 
-Figure 10: SSH Network Traffic Packets Displayed in Wireshark During
+Figure 29: SSH Network Traffic Packets Displayed in Wireshark During
 Traffic Analysis
 
 In the HTTP capture it is possible to read webpage content and requests.
@@ -249,9 +249,9 @@ sensitive information through network interception.
 
 **4.3.1 Conduct a Cyber Security Risk Assessment**
 
-![Figure 11: Cybersecurity Risk Assessment Matrix and Recommended Controls](./images/Picture28.png)
+![Figure 30: Cybersecurity Risk Assessment Matrix and Recommended Controls](./images/Picture28.png)
 
-Figure 1: Cybersecurity Risk Assessment Matrix and Recommended Controls
+Figure 30: Cybersecurity Risk Assessment Matrix and Recommended Controls
 
 A mini business network developed in Sections 4.1 and 4.2 is subject to
 a mini cyber security risk assessment, carried out with the TVAMatrix
